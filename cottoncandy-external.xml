@@ -22,12 +22,16 @@
   <!-- Cotton Candy specifics -->
   <project path="hardware/fxi/cottoncandy/gralloc_ump" name="arm/gralloc" revision="master" remote="fxi-android" />
   <project path="hardware/fxi/cottoncandy/ump" name="arm/libump" revision="master" remote="fxi-android" />
+  <project path="hardware/fxi/cottoncandy/wlan" name="fxi/bcm4329_fw" remote="fxi-android" revision="fxi/cottoncandy/4.220.36"/>
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="fxi/cottoncandy" />
   <project path="device/fxi/cottoncandy" name="android/fxi/device/fxi/cottoncandy" revision="master" remote="fxi-android" />
   <project path="u-boot" name="linaro/landing-teams/working/samsung/u-boot" revision="fxi/cottoncandy" remote="fxi-android"/>
   <project path="kernel" name="linaro/landing-teams/working/samsung/kernel" remote="fxi-android" revision="fxi_android-tracking"/>
   <project path="frameworks/base" name="platform/frameworks/base" revision="fxi/cottoncandy" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="fxi/cottoncandy" />
   <project path="system/core" name="platform/system/core" revision="fxi/cottoncandy" />
+  <project path="packages/apps/fxiconfig" name="fxi/fxiconfig" remote="fxi-android" revision="master"/>
+  <project path="dalvik" name="platform/dalvik" revision="fxi/cottoncandy"/>
+  <project path="external/oprofile" name="platform/external/oprofile" revision="fxi/cottoncandy"/>
 
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
@@ -101,7 +105,6 @@
   <project path="external/strace" name="platform/external/strace" revision="linaro_android_4.0.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="linaro_android_4.0.4" />
   <project path="external/webkit" name="platform/external/webkit" revision="linaro_android_4.0.4" />
-  <project path="external/oprofile" name="platform/external/oprofile" revision="linaro_android_4.0.4" />
   <project path="external/v8" name="platform/external/v8" revision="linaro_android_4.0.4" />
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.0.4" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.0.4" />
