@@ -11,10 +11,12 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
+  <remote  name="fxi"
+           fetch="http://development.cstick.com/p/" />
   <remote  name="fxi-android"
-	   fetch="http://public-git.cstick.com/" />
+           fetch="http://development.cstick.com/p/android" />
   <remote  name="fxi-android-linaro"
-           fetch="http://public-git.cstick.com/android/linaro/" />
+           fetch="http://development.cstick.com/android/linaro/" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="fxi-android-linaro"
            sync-j="4" />
@@ -24,9 +26,9 @@
   <project path="hardware/fxi/cottoncandy/ump" name="arm/libump" revision="master" remote="fxi-android" />
   <project path="hardware/fxi/cottoncandy/wlan" name="fxi/bcm4329_fw" remote="fxi-android" revision="fxi/cottoncandy/4.220.36"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="fxi/cottoncandy" />
-  <project path="device/fxi/cottoncandy" name="android/fxi/device/fxi/cottoncandy" revision="master" remote="fxi-android" />
-  <project path="u-boot" name="linaro/landing-teams/working/samsung/u-boot" revision="fxi/cottoncandy" remote="fxi-android"/>
-  <project path="kernel" name="linaro/landing-teams/working/samsung/kernel" remote="fxi-android" revision="fxi_android-tracking"/>
+  <project path="device/fxi/cottoncandy" name="fxi/device/fxi/cottoncandy" revision="master" remote="fxi-android" />
+  <project path="u-boot" name="u-boot/u-boot-samsung" revision="fxi/uboot_2010_12_samsung_bsp" remote="fxi"/>
+  <project path="kernel" name="kernel" remote="fxi" revision="fxi_android-tracking"/>
   <project path="frameworks/base" name="platform/frameworks/base" revision="fxi/cottoncandy" />
   <project path="system/core" name="platform/system/core" revision="fxi/cottoncandy" />
   <project path="packages/apps/fxiconfig" name="fxi/fxiconfig" remote="fxi-android" revision="master"/>
