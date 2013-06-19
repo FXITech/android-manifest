@@ -40,19 +40,13 @@
 
   <!-- Linaro extras -->
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
-  <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" revision="linaro_android_4.0.4_tracking" />
-  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump" revision="linaro_android_4.0.4" />
-  <project path="hardware/linaro/common" name="hardware/linaro/common" revision="linaro_android_4.0.4" />
-  <project path="device/linaro/origen" name="device/linaro/origen" revision="linaro-ics-tracking" remote="linaro-android" />
   <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
-  <project path="device/linaro/pandaboard" name="device/linaro/pandaboard" revision="linaro-ics" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
   <project path="external/x264" name="platform/external/x264" revision="linaro-master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" revision="linaro-0.11.1" />
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" />
-  <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro_android_4.0.4" remote="linaro-android" />
   <project path="packages/wallpapers/LinaroWallpaper" name="platform/packages/wallpapers/LinaroWallpaper" revision="master" />
   <project path="external/powertop" name="platform/external/powertop" revision="linaro"/>
   <project path="external/ncurses" name="platform/external/ncurses" revision="linaro"/>
@@ -69,9 +63,7 @@
   </project>
   <project path="external/icu4c" name="platform/external/icu4c" revision="linaro_android_4.0.4" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="linaro_android_4.0.4" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.0.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="linaro_android_4.0.4" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.0.4" />
   <project path="system/vold" name="platform/system/vold"  revision="linaro_android_4.0.4"/>
   <project path="bionic" name="platform/bionic" revision="linaro_android_4.0.4"/>
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.0.4"/>
@@ -110,10 +102,6 @@
   <project path="external/embunit" name="platform/external/embunit" revision="linaro_android_4.0.4" />
   <project path="external/elfutils" name="platform/external/elfutils" revision="linaro_android_4.0.4" />
 
-  <!-- TI proprietary-open -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" />
-  <project path="device/ti/uim" name="device/ti/uim" revision="android" />
-
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -121,14 +109,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <!-- project path="device/samsung/torospr" name="device/samsung/torospr" / -->
-  <project path="device/samsung/toro" name="device/samsung/toro" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -231,10 +212,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -248,7 +225,6 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
