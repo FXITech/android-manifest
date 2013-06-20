@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org" />
   <remote  name="linaro-android"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
