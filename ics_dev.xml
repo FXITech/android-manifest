@@ -31,6 +31,10 @@
   <project path="packages/apps/fxiconfig" name="fxi/fxiconfig" remote="fxi-android" revision="master"/>
   <project path="dalvik" name="platform/dalvik" revision="fxi/cottoncandy"/>
   <project path="external/oprofile" name="platform/external/oprofile" revision="fxi/cottoncandy"/>
+  <project path="device/fxi/exynos4" name="samsung/exynos4" revision="fxi/cottoncandy" remote="fxi-android" />
+  <project path="device/fxi/multimedia" name="samsung/multimedia" revision="fxi/cottoncandy" remote="fxi-android" />
+  <project path="device/fxi/exynos_common" name="samsung/smdk_common" revision="fxi/cottoncandy" remote="fxi-android" />
+  <project path="vendor/fxi/cottoncandy" name="fxi/vendor/cottoncandy" revision="master" remote="fxi-android" />
 
   <!-- External extras -->
   <project path="packages/apps/0xbench" name="platform/packages/apps/0xbench" revision="linaro-master" />
