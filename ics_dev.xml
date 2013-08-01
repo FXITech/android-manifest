@@ -41,7 +41,6 @@
 
   <!-- Linaro extras -->
   <project path="packages/apps/DisableSuspend" name="platform/packages/apps/DisableSuspend" revision="master" />
-  <project path="device/linaro/common" name="device/linaro/common" revision="linaro-ics" />
   <project path="hardware/linaro/tinyhal" name="people/kurt-r-taylor/tinyhal" revision="linaro" remote="linaro-other" />
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.19" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" />
